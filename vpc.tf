@@ -1,7 +1,5 @@
 provider "aws" {
 	region = "us-west-2"
-	access_key = "AKIAIJISQ54OXB7BDM5Q"
-	secret_key = "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"
 }
 resource "aws_vpc" "myvpc" {
 	cidr_block = "172.16.0.0/16"
